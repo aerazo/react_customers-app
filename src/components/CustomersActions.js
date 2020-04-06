@@ -5,7 +5,7 @@ const CustomersActions = ({ children }) => {
     return (
         <div>
             <div className="customers-actions">
-                <div></div>
+                <div>{children}</div>
             </div>
         </div>
     );
